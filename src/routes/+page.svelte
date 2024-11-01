@@ -5,6 +5,16 @@
 </svelte:head>
 
 
-<div>
+<script>
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		console.log('Page mounted');
+	});
+	console.log('Page mounted');
+</script>
+
+
+<div class="bg-[red">
 	Main Page
 </div>
